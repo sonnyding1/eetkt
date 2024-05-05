@@ -208,6 +208,13 @@ const copyToClipboard = (code) => {
   gap: 1rem;
   justify-content: space-between;
 }
+@media (max-width: 600px) {
+  .compute {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+  }
+}
 .find {
   display: flex;
   align-items: center;
