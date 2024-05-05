@@ -220,8 +220,4 @@ const copyToClipboard = (code) => {
   align-items: center;
   gap: 1rem;
 }
-
-::v-deep .hide-trigger .p-dropdown-trigger {
-  display: none;
-}
 </style>
