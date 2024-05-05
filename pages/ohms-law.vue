@@ -1,7 +1,7 @@
 <template>
   <div>
     <Toast />
-    <h1 class="text-red-500">Ohm's Law</h1>
+    <h1>Ohm's Law</h1>
     <p>
       Ohm's Law states that the current through a conductor between two points
       is directly proportional to the voltage across the two points.
