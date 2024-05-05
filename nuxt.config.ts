@@ -2,5 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["nuxt-primevue"],
-  css: ["primevue/resources/themes/aura-light-green/theme.css"],
+  css: [
+    "primevue/resources/themes/aura-light-green/theme.css",
+    "primeicons/primeicons.css",
+  ],
+  plugins: ["~/plugins/primevue-toast.js"],
 });
