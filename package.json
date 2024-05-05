@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "nuxt": "^3.11.2",
+    "primevue": "^3.52.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.0"
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "nuxt-primevue": "^0.3.1"
   }
 }
