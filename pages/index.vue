@@ -1,10 +1,7 @@
-<template></template>
+<template>
+  <div>EE Toolkit landing page</div>
+</template>
 
-<script setup>
-onMounted(() => {
-  const router = useRouter();
-  router.push("/ohms-law");
-});
-</script>
+<script setup></script>
 
 <style></style>
