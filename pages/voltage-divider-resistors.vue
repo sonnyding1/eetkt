@@ -3,6 +3,10 @@
     <Toast />
     <h1>Voltage Divider (Resistors)</h1>
 
+    <div>
+      <img :src="voltageDividerSvg" alt="voltage-divider" />
+    </div>
+
     <div class="compute">
       <FloatLabel>
         <InputGroup>
@@ -93,6 +97,7 @@ import Dropdown from "primevue/dropdown";
 import Button from "primevue/button";
 import { useToast } from "primevue/usetoast";
 import FloatLabel from "primevue/floatlabel";
+import voltageDividerSvg from "@/assets/voltage-divider.svg";
 
 const toast = useToast();
 
@@ -162,7 +167,7 @@ const copyToClipboard = () => {
   .compute {
     flex-direction: column;
     align-items: center;
-    gap: 0.1rem;
+    gap: 2rem;
   }
 }
 </style>
