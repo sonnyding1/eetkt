@@ -1,3 +1,7 @@
 .hide-trigger .p-dropdown-trigger {
   display: none;
 }
+
+.p-menubar-start {
+  margin-right: 1rem;
+}
